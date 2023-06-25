@@ -1,0 +1,13 @@
+<testExecutions version="1">
+<file path="test\cdk-nag.test.ts">
+<testCase name="Security Check No unsuppressed Warnings" duration="89" />
+<testCase name="Security Check No unsuppressed Errors" duration="48" />
+</file>
+<file path="test\aws-storage.test.ts">
+<testCase name="KMS Key Created" duration="2" />
+<testCase name="KMS Alias Created" duration="1" />
+<testCase name="S3 Bucket Created" duration="1" />
+<testCase name="DynamoDB Customers Table Created" duration="1" />
+<testCase name="DynamoDB Orders Table Created" duration="1" />
+</file>
+</testExecutions>
